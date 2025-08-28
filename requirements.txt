@@ -1,0 +1,11 @@
+opencv-python
+pandas
+pillow
+face_recognition
+playsound
+pyttsx3
+requests
+matplotlib
+cryptography
+qrcode
+mediapipe

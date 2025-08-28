@@ -37,21 +37,13 @@ def get_img_label(window):
 
 
 def get_text_label(window, text):
-    label = tk.Label(window, text=text, bg="#2196f3", fg="white")
-    label.config(font=("Segoe UI", 20, "bold"), justify="left", anchor="w", padx=10)
+    label = tk.Label(window, text=text, bg="#e3f2fd", fg="#0d47a1", font=("Segoe UI", 14))
     return label
 
 
 def get_entry_text(window):
-    inputtxt = tk.Text(window,
-                       height=2,
-                       width=15,
-                       font=("Segoe UI", 24, "bold"),
-                       bg="#e3f2fd",
-                       fg="#0d47a1",
-                       bd=2,
-                       relief="groove")
-    return inputtxt
+    entry = tk.Text(window, height=1, width=20, font=("Segoe UI", 14), bg="#e3f2fd", fg="#0d47a1")
+    return entry
 
 
 def msg_box(title, description):

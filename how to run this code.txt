@@ -1,0 +1,16 @@
+1) Create a virtual environment
+    Run:
+    python -m venv venv
+
+
+2)Activate the virtual environment
+    Run:
+    .\venv\Scripts\activate
+
+3)Install required packages
+    Run:
+    pip install opencv-python face_recognition numpy pandas pillow pyttsx3 requests matplotlib cryptography qrcode playsound
+
+4)Run your code
+    Run:
+    python app.py
